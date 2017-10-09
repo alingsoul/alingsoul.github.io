@@ -1,6 +1,6 @@
 # alingsoul.github.io
 shopping mall
-echo“＃hearthop”>> README.md 
+echo“＃alingsoul.github.io”>> README.md 
 git init 
 git add README.md 
 git commit -m“first commit” 
