@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>贴心购</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body>
+    <div class="page">
+        <div class="con">
+           <div class="brand-con">
+              <p class="one" >品牌</p>
+           </div>
+           <div class="activity-con">
+               <p class="two">活动</p>
+           </div>
+           <div class="best-con">
+               <p class="three">优选</p>
+           </div>
+        </div>
+        <div class="activitypage">
+           <div class="box">
+              <div class="left">
+                <img src="images/1.jpg" alt="" >
+              </div>
+              <div class="right">
+                <div class="large-goods"></div>
+                <div class="content-con">
+                    <div class="content">
+                         <h2>清洁洗护</h2>
+                         <div class="line"></div>
+                         <div class="decreas">满59减19</div>
+                    </div>
+                </div>
+              </div>
+           </div>
+            <div class="box">
+                <div class="left">
+                    <img src="images/2.webp" alt="" >
+                </div>
+                <div class="right">
+                    <div class="large-goods"></div>
+                    <div class="content-con">
+                        <div class="content">
+                            <h2>童床</h2>
+                            <div class="line"></div>
+                            <div class="decreas">满199减100</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="images/3.webp" alt="" >
+                </div>
+                <div class="right">
+                    <div class="large-goods"></div>
+                    <div class="content-con">
+                        <div class="content">
+                            <h2>手机配件</h2>
+                            <div class="line"></div>
+                            <div class="decreas">满2件7.5折</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="images/4.webp" alt="" >
+                </div>
+                <div class="right">
+                    <div class="large-goods"></div>
+                    <div class="content-con">
+                        <div class="content">
+                            <h2>进口酒</h2>
+                            <div class="line"></div>
+                            <div class="decreas">满2件7.5折</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="images/5.webp" alt="" >
+                </div>
+                <div class="right">
+                    <div class="large-goods"></div>
+                    <div class="content-con">
+                        <div class="content">
+                            <h2>医疗器械</h2>
+                            <div class="line"></div>
+                            <div class="decreas">满50减10</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="images/6.webp" alt="" >
+                </div>
+                <div class="right">
+                    <div class="large-goods"></div>
+                    <div class="content-con">
+                        <div class="content">
+                            <h2>玩具</h2>
+                            <div class="line"></div>
+                            <div class="decreas">满2件8折</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="images/7.webp" alt="" >
+                </div>
+                <div class="right">
+                    <div class="large-goods"></div>
+                    <div class="content-con">
+                        <div class="content">
+                            <h2>办公文仪</h2>
+                            <div class="line"></div>
+                            <div class="decreas">满79减20</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="images/8.webp" alt="" >
+                </div>
+                <div class="right">
+                    <div class="large-goods"></div>
+                    <div class="content-con">
+                        <div class="content">
+                            <h2>哺育喂养</h2>
+                            <div class="line"></div>
+                            <div class="decreas">满2件8折</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+    <script type="text/javascript" >
+        var one=document.querySelector(".one");
+        var two=document.querySelector(".two");
+        var three=document.querySelector(".three");
+        var brand=document.querySelector(".brand-con");
+        var activity=document.querySelector(".activity-con");
+        var best=document.querySelector(".best-con");
+        brand.onclick=function(){
+            one.style.color='#ff4277';
+            two.style.color='#bdbdbd';
+            three.style.color='#bdbdbd';
+           var dom=document.querySelector('.brand-con');
+            var dom2=dom.querySelector( 'p::before');
+            dom2.style.background="url(../images/1.1.png)";
+        }
+        activity.onclick=function(){
+            two.style.color='#ff4277';
+            one.style.color='#bdbdbd';
+            three.style.color='#bdbdbd';
+        }
+        best.onclick=function(){
+            three.style.color='#ff4277';
+            one.style.color='#bdbdbd';
+            two.style.color='#bdbdbd';
+        }
+
+    </script>
+</body>
+</html>
