@@ -1,6 +1,7 @@
 body{
     background: #eeeeee;
     width:100%;
+    font-size:12px;
 }
 .page{
     width:100%;
@@ -11,6 +12,12 @@ body{
     background:#fff;
     position:fixed;
     top:0px;
+}
+.con-box{
+    position:fixed;
+    width:100%;
+    height:100%;
+    overflow:hidden;
 }
 .brand-con{
     height:44px;
@@ -82,3 +89,136 @@ body{
     font-size:16px;
     color:#bdbdbd;
 }
+.brand-box{
+    width:100%;
+    overflow:hidden;
+    position:absolute;
+    top:45px;
+}
+.brand-box .brand-list{
+    height:280px;
+    width:100%;
+    background-color: #fff;
+    margin:10px 0px;
+}
+.brand-box .brand-list .herder{
+    height:60px;
+    width:100%;
+    padding: 10px 0px 10px 13px;
+    position:relative;
+}
+.brand-box .brand-list .herder .avatar{
+    height:40px;
+    width:40px;
+    position:absolute;
+    top:10px;
+    left:13px;
+
+}
+.brand-box .brand-list .herder .avatar img{
+    width:100%;
+    height:auto;
+}
+.brand-box .brand-list .herder .brand-name{
+    height:20px;
+    margin-left:26px;
+    color:#212121;
+    font-size:18px;
+    position:absolute;
+    left:50px;
+    top:22px;
+    line-height:20px;
+}
+.brand-box .brand-list .herder .brand-entry{
+    height:30px;
+    width:30px;
+    padding:10px;
+    position:absolute;
+    top:20px;
+    right:13px;
+}
+.brand-box .brand-list .herder .brand-entry img{
+    width:10px;
+    height:10px;
+    position:absolute;
+    left:10px;
+    top:10px;
+    backgroung-size:10px;
+}
+.goods-con{
+    height:180px;
+    width:100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.goods-con .goods-list{
+   height:180px;
+    width:220%;
+    padding-left:11px;
+    overflow:hidden;
+}
+.goods-con .goods-list .goods-items{
+    width:16%;
+    height:171px;
+    margin-right:11px;
+    border-radius: .15625rem;
+    list-style:none;
+    float:left;
+}
+.goods-con .goods-list .goods-items .goods-count{
+    width:130px;
+    height:130px;
+    border-radius:10px;
+    background-color: #ededed;
+    background-size: 100%;
+    position: relative;
+}
+.goods-con .goods-list .goods-items .goods-count img{
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+.goods-con .goods-list .goods-items .goods-count .goods-price{
+    width:100%;
+    height:36px;
+    padding:10px 0px;
+    color:#fff;
+    text-align:center;
+    position:absolute;
+    background: linear-gradient(0deg,hsla(0,0%,41%,.6) 40%,hsla(0,0%,41%,0));
+    top:92px;
+}
+.goods-con .goods-list .goods-items .goods-title{
+    height:35px;
+    margin-top:8px;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+.brand-list .footer{
+    height:60px;
+    padding:10px 12px;
+    color: #bdbdbd;
+    position:relative;
+}
+.brand-list .footer .love{
+    height:14px;
+    width:25px;
+    color: #bdbdbd;
+    position:absolute;
+    right:10px;
+    top:14px;
+}
+.brand-list .footer .love::before{
+    content:"";
+    width: 35px;
+    height:31px;
+    background:url('../images/xin.png');
+    position:absolute;
+    top:0px;
+    left:-16px;
+    background-size:12px 12px;
+    background-repeat:no-repeat;
+}
+
+
+

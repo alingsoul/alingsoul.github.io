@@ -3,4 +3,8 @@ body,div,ul,li,p,h1,h2,h3,h4,h5,h6,input,form,ol,dd,dt,dl,table,tr,td,span,i,s,b
     padding:0;
     box-sizing:border-box;
     -webkit-tap-highlight-color:transparent;
+    font-family: Arial,Microsoft YaHei;
+}
+div{
+    display:block;
 }

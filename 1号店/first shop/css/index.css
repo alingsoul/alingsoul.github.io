@@ -11,6 +11,7 @@ body{
     background:#fff;
     position:fixed;
     top:0px;
+    z-index:1;
 }
 .brand-con{
    height:44px;
