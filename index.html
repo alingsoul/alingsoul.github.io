@@ -4,57 +4,231 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimum-scale=1,maximum-scale=1" />
-		<meta property="wb:webmaster" content="ffbe671ec90d7728" />
 		<title>
 			aling house
 		</title>
-		<link type="text/css" rel="stylesheet" href="http://at.alicdn.com/t/font_418567_9vwxakrromv7k3xr.css" />
-		<link type="text/css" rel="stylesheet" href="css/common.css" />
-		<link type="text/css" rel="stylesheet" href="css/index.css" />
+		<!--<link type="text/css" rel="stylesheet" href="css/common.css" />-->
+		<!--<link type="text/css" rel="stylesheet" href="css/main.css" />-->
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_452019_j0tbvvzb1apjh5mi.css">
+		<link rel="stylesheet" href="../personal-introduction/animate.css">
+		<script src="../personal-introduction/jQuery-3.2.min.js"></script>
+		<style>
+		.box{
+		height:90px;
+		width:240px;
+		background-color: #f0cfac;
+		position:fixed;
+		top:160px;
+		left:180px;
+		border-radius:35px;
+		transform:rotate(-10deg);
+		border:5px dashed #dc554f;
+		}
+		.box p{
+			text-align: center;
+			font-size:30px;
+			font-family: Arial, Microsoft YaHei;
+			color: #b0473f;
+	       line-height: 30px;
+
+		}
+		body{
+			width:100%;
+
+		}
+		.left{
+		width:25%;
+		float:left;
+		}
+		.right{
+		width:75%;
+		float:left;
+		}
+		.on{
+			height:120px;
+			width:100px;
+			margin:auto;
+		}
+		.pic{
+            height:80px;
+			width:80px;
+			padding-left:10px;
+		}
+		.pic img{
+		    width:100%;
+			height:100%;
+		    border-radius:35px;
+		}
+		.on h2{
+				text-align: center;
+			}
+		.describe{
+			height:100px;
+		}
+		.describe p{
+			font-size: 18px;
+			text-align: center;
+		    line-height:36px;
+			margin-top:24px;
+		}
+        .icon{
+			width:300px;
+			height:80px;
+			position:fixed;
+			bottom:0;
+			left:0;
+			text-align:center;
+		}
+		.icon a{
+			text-decoration: none;
+		}
+		.iconfont{
+			font-size: 30px;
+			color: #ababab;
+			margin:10px;
+			}
+		.pro{
+			overflow: hidden;
+			background-color: #f0f0f0;
+			margin:10px auto;
+			}
+		.album img{
+			width:35%;
+			float:left;
+			}
+		.word{
+			display:inline-block;
+			width:65%;
+
+		}
+		.header{
+			text-align: center;
+		}
+		.header a{
+			text-decoration: none;
+		}
+		.header h1{
+			color: #d0504b
+		}
+		.cn p {
+			font-size: 16px;
+		}
+		#h-toggle{
+			display:none;
+		}
+		#s-toggle img{
+			width:100%;
+		}
+		#enter:hover{
+			cursor:pointer;
+		}
+		</style>
 	</head>
 	<body>
-		<div class="top_fixed">
-			<!-- <p id="item_move">最近更新Vue动态状态过渡</p> -->
+	<div id="s-toggle">
+
+		<div class="box" id="box" >
+			<a  id="enter" onclick="show()">
+				<p>Enter Myhouse</p>
+			</a>
 		</div>
-		<div class="wrapper">
-			<!-- 头部 -->
-			<div class="header">
-				<a href="/">aling house</a>
+		<img src="images/1.jpg" alt="" >
+	</div>
+	<div class="minor" id="h-toggle">
+		<div class="left">
+			<div class="on">
+				<div class="pic"><img src="images/3.jpg" alt=""></div>
+				<h2>Aling</h2>
 			</div>
-			<!-- 连接 -->
-			<p class="links">
-				<a href="https://github.com/alingsoul"><i title="https://github.com/alingsoul" class="iconfont icon-github"></i></a>
-			</p>
-			<!-- 内容 -->
-			<div class="main">
-				<ul>
-					<li>
-						<h3>Oct 07, 2017</h3>
-						<h2>
-							<a href="./1号店/first shop/index.html">贴心购</a>
-						</h2>
-					</li>
-					<li>
-						<h3>Oct 06, 2017</h3>
-						<h2>
-							<a href="./1号店/first shop/index1.html">品牌</a>
-						</h2>
-					</li>
-					<li>
-						<h3>May 20, 2017</h3>
-						<h2>
-							<a href="./2017/09/20/vue-svg.html">喜欢你</a>
-						</h2>
-					</li>
-					<li>
-						<h3>May 20, 2017</h3>
-						<h2>
-							<a href="./2017/09/19/vue-cli.html">喜欢你</a>
-						</h2>
-					</li>
-				</ul>
+			<div class="describe">
+                <p>
+					i'm just a little bit shy<br>  when i see you smile
+				</p>
+			</div>
+			<div class="icon">
+				<a href="https://github.com/alingsoul"><span class="iconfont icon-Git"></span></a>
+				<a href="http://wpa.qq.com/msgrd?v=3&uin=891658990&site=qq&menu=yes"><span class="iconfont icon-qq"></span></a>
+				<a href="http://www.foxmail.com/"><span class="iconfont icon-email"></span></a>
+			</div>
+
+		</div>
+		<div class="right">
+			<div class="pro">
+			   <div class="album"><img src="images/2.jpg" alt=""></div>
+			      <div class="word">
+				     <div class="header">
+					 <a href="./introduce/index.html"><h1>Pesonal Introduction</h1></a>
+			     	</div>
+				  <div class="cn">
+					<p>&nbsp&nbspMy name is Aling. I am a girl. I'm twenty two years old. Now I am studying in qiongzhou university of SanYa. </p>
+				  </div>
+				  </div>
+		   </div>
+
+		    <div class="pro">
+			<div class="album"><img src="images/3.jpg" alt=""></div>
+			<div class="word">
+				<div class="header">
+					<a href="./1号店/first shop/index.html"><h1>First Shop</h1></a>
+				</div>
+				<div class="cn">
+					<p>&nbsp&nbspMy name is Aling. I am a girl. I'm twenty two years old. Now I am studying in qiongzhou university of SanYa. </p>
+				</div>
+			</div>
+		    </div>
+		    <div class="pro">
+			<div class="album"><img src="images/4.jpg" alt=""></div>
+			<div class="word">
+				<div class="header">
+					<a href="./1号店/first shop/index1.html"><h1>Brand Activity</h1></a>
+				</div>
+				<div class="cn">
+					<p>&nbsp&nbspMy name is Aling. I am a girl. I'm twenty two years old. Now I am studying in qiongzhou university of SanYa. </p>
+				</div>
 			</div>
 		</div>
-		<script type="text/javascript" src="js/index_style_min.js"></script>
+		<div class="pro">
+			<div class="album"><img src="images/5.jpg" alt=""></div>
+			<div class="word">
+				<div class="header">
+					<h1>None</h1>
+				</div>
+				<div class="cn">
+					<p>&nbsp&nbspMy name is Aling. I am a girl. I'm twenty two years old. Now I am studying in qiongzhou university of SanYa. </p>
+				</div>
+			</div>
+		</div>
+		<div class="pro">
+			<div class="album"><img src="images/5.jpg" alt=""></div>
+			<div class="word">
+				<div class="header">
+					<h1>None</h1>
+				</div>
+				<div class="cn">
+					<p>&nbsp&nbspMy name is Aling. I am a girl. I'm twenty two years old. Now I am studying in qiongzhou university of SanYa. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+		<script>
+			$(document).ready(function(){
+				$('#box').on('mousemove',function(){
+					$('#enter p').addClass('animated shake');
+				});
+				$('#box').on('mouseout',function(){
+					$('#enter p').removeClass('animated shake');
+				})
+
+			})
+
+			function show(){
+				var h=document.getElementById('h-toggle');
+				var s=document.getElementById('s-toggle');
+				s.style.display='none';
+				h.style.display='block';
+			}
+		</script>
 	</body>
-</html>  
+</html>
